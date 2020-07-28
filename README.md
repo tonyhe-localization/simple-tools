@@ -7,6 +7,8 @@ dateStamp.py - when executed, creates a six digit date stamp at the end of the f
 
 removeSpaces.py - when executed, remove all spaces in file name and replace with underscore _ for all files within the same folder.
 
+### createFolders
+
 createFolders-VideoEditing.py - when executed, creates specified directories useful for video editing projects.
 
 createFolders-Localization.py - when executed, creates specified directories useful for localization projects.
