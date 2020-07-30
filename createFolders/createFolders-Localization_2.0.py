@@ -3,12 +3,12 @@
 import os
 
 folder_name = input("Please decide on a folder's name: ")        
-path_1 = os.path.join(os.getcwd(), folder_name, 'helper\source')    # .join method to add user's folder name to the file structure
-path_2 = os.path.join(os.getcwd(), folder_name, 'helper\\target') 
-path_3 = os.path.join(os.getcwd(), folder_name, 'source\en_US') 
-path_4 = os.path.join(os.getcwd(), folder_name, 'source\zh_CN') 
-path_5 = os.path.join(os.getcwd(), folder_name, 'target\en_US')
-path_6 = os.path.join(os.getcwd(), folder_name, 'target\zh_CN') 
+path_1 = os.path.join(os.getcwd(), folder_name, 'helper/source')    # .join method to add user's folder name to the file structure
+path_2 = os.path.join(os.getcwd(), folder_name, 'helper//target') 
+path_3 = os.path.join(os.getcwd(), folder_name, 'source/en_US') 
+path_4 = os.path.join(os.getcwd(), folder_name, 'source/zh_CN') 
+path_5 = os.path.join(os.getcwd(), folder_name, 'target/en_US')
+path_6 = os.path.join(os.getcwd(), folder_name, 'target/zh_CN') 
 
 print("The current working directory is %s" % os.getcwd())
 
