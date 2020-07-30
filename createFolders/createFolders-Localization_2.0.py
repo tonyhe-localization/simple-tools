@@ -1,6 +1,3 @@
-# 5/21/2020
-# Tony He
-# This is a quick script used to create folders for projects.
 # with further contributions from Mateusz Sasinowski, logged on 6/10/2020
 
 import os
