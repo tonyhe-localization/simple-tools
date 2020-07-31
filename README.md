@@ -14,3 +14,5 @@ removeSpaces.py - when executed, remove all spaces in file name and replace with
 createFolders-VideoEditing.py - when executed, creates specified directories useful for video editing projects.
 
 createFolders-Localization.py - when executed, creates specified directories useful for localization projects.
+
+createFolders-Localization_2.0.py - improved by Mateusz Sasinowski.
