@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # Get today's date and remove the dashes and the first two digits "20".
-date = datetime.date(datetime.now()).strftime('%Y%m%d') [2:]
+date = datetime.date(datetime.now()).strftime('%Y%m%d') [2:] # This format can be modified.
 #print(date) check
 
 # Rename a file in the Downloads folder to something specific.
