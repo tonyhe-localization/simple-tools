@@ -9,7 +9,7 @@ def urlify(fileName): # borrowed from stack overflow
     fileName = re.sub(r"[^\w\s]", '', fileName)
 
     # Replace all runs of whitespace with underscores
-    fileName = re.sub(r"\s+", '_', fileName)
+    fileName = re.sub(r"\s+", '_', fileName) # this can also be modified to replace whitespace with dashes "-".
 
     return fileName
 
