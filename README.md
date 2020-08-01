@@ -1,7 +1,7 @@
 # simple-tools
 A tool-kit containing simple python scripts for file organization. All scripts can be modified for customized use.
 
-## TOC:
+## Contents:
 
 ### renameFiles
 
