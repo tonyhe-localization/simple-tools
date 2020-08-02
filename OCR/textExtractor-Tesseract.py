@@ -14,7 +14,9 @@ custom_oem_psm_config = r'--oem 3 --psm 11'# custom configurations.
 image = Image.open(new_image)
 text = tess.image_to_string(image, lang = inputLang, config = custom_oem_psm_config)
 
-print("Extracted words below:")
+print("Extracted words below: ")
+print("----------------------")
+print()
 print(text)
-
-wordCount = print(len(text))
+print("----------------------")
+print("Number for characters:",len(text))
