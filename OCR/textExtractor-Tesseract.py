@@ -19,6 +19,6 @@ print("----------------------")
 print()
 print(text)
 print("----------------------")
-print("Number for characters:",len(text))
+print("Number for characters:",len(text)) # count characters.
 words = text.split()
-print("Number of words:", len(words))
+print("Number of words:", len(words)) # count words.
