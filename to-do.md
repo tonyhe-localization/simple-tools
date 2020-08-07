@@ -4,3 +4,4 @@
 2) Different versions of textExtractor-Tesseract for different languages.
 3) createFolders-csoft.py with standardized folder structures.
 4) Check other repos, esp. loc for tools.
+5) Fix bugs in imageProcessing.py
