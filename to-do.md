@@ -5,3 +5,4 @@
 3) createFolders-csoft.py with standardized folder structures.
 4) Check other repos, esp. loc for tools.
 5) Fix bugs in imageProcessing.py
+6) Combine dateStamp and removeSpaces to one script.
