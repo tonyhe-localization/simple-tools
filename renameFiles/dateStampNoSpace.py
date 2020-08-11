@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 import re
 
-def removeSpaces(i):
+def removeSpaces():
     def urlify(fileName): # borrowed from stack overflow
 
         # Remove all non-word characters (everything except numbers and letters)
@@ -31,5 +31,5 @@ def removeSpaces(i):
             new_name = '{}{}'.format(urlify(f_name), f_ext)
             os.rename(f, new_name)
 
-    return i 
+removeSpaces()
 
