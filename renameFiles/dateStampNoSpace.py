@@ -30,5 +30,6 @@ def removeSpaces(i):
         else:
             new_name = '{}{}'.format(urlify(f_name), f_ext)
             os.rename(f, new_name)
-    return(i)
+
+    return i 
 
