@@ -9,7 +9,7 @@ dateStamp.py - when executed, creates a six digit date stamp at the end of the f
 
 removeSpaces.py - when executed, remove all spaces in file name and replace with underscore _ for all files within the same folder. 
 
-dateStamp2.py - a combination of dateStamp.py and removeSpaces.py.
+dateStampNoSpace.py - a combination of dateStamp.py and removeSpaces.py.
 
 ### createFolders
 
