@@ -44,8 +44,13 @@ def dateStamp():
     for f in os.listdir():
         f_name, f_ext = os.path.splitext(f)
 
-        if f_name == 'dateStamp' and f_ext == '.py': # skip "dateStamp.py" file itself.
+        if f_name == 'dateStamp' and f_ext == '.py': 
             print('Skipping dateStamp...')
+        elif f_name == 'removeSpaces' and f_ext == '.py': 
+            print('Skipping removeSpaces.py...')
+        elif f_name == 'dateStampNoSpace' and f_ext == '.py':
+            print('Skipping dateStampNoSpace.py')
+
         elif f_ext == '.ini': # skip any .ini files that you don't want to change the name to.
             print('Skipping ini file...')
         
