@@ -19,6 +19,8 @@ createFolders-Localization.py - when executed, creates specified directories use
 
 createFolders-Localization_2.0.py - improved by Mateusz Sasinowski.
 
+createFolders-csoft.py - project folder structures.
+
 ### OCR
 
 textExtractor-Tesseract.py - need Tesseract to be installed in order for it to work. When executed, extracts text from a designated image (asks for file name and ext) in the same folder and outputs extracted texts into compiler. Updated with character and wordcount.
