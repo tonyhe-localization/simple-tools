@@ -19,7 +19,7 @@ createFolders-Localization.py - when executed, creates specified directories use
 
 createFolders-Localization_2.0.py - improved by Mateusz Sasinowski.
 
-createFolders-csoft.py - project folder structures.
+createFolders-csoft.py - csoft standard project folder structures.
 
 ### OCR
 
