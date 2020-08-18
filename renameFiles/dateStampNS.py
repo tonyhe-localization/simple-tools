@@ -22,8 +22,8 @@ def removeSpaces():
     for f in os.listdir():
         f_name, f_ext = os.path.splitext(f)
 
-        if f_name == 'dateStampNS' and f_ext == '.py': # skip the "dateStamp.py" script itself.
-            print('Skipping dateStamp...')
+        if f_name == 'dateStampNS' and f_ext == '.py': # skip the "dateStampNS.py" script itself.
+            print('Skipping dateStampNS...')
         elif f_ext == '.ini': # skip any .ini files that you don't want to change the name to.
             print('Skipping ini file...')
 
@@ -44,8 +44,8 @@ def dateStamp():
     for f in os.listdir():
         f_name, f_ext = os.path.splitext(f)
 
-        if f_name == 'dateStamp' and f_ext == '.py': 
-            print('Skipping dateStamp...')
+        if f_name == 'dateStampNS' and f_ext == '.py': 
+            print('Skipping dateStampNS.py...')
         elif f_name == 'removeSpaces' and f_ext == '.py': 
             print('Skipping removeSpaces.py...')
         elif f_name == 'dateStampNoSpace' and f_ext == '.py':
