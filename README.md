@@ -26,3 +26,7 @@ createFolders-csoft.py - csoft standard project folder structures.
 textExtractor-Tesseract.py - need Tesseract to be installed in order for it to work. When executed, extracts text from a designated image (asks for file name and ext) in the same folder and outputs extracted texts into compiler. Updated with character and wordcount.
 
 imageProcessing.py - a script that prepares and cleans up image fors for more accurate OCR scanning.
+
+### quickZip
+
+quickZip.py - when executed, zips each file within a folder individually. Very useful for working on multilingual files and folders.
