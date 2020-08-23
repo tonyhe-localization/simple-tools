@@ -4,4 +4,8 @@ from zipfile import ZipFile
 import os
 
 def filePaths(directory):
-    
+    path = os.getcwd()
+    os.chdir(path)
+
+    for f in os.listdir():
+        
