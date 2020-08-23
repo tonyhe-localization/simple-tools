@@ -3,3 +3,5 @@
 from zipfile import ZipFile
 import os
 
+def filePaths(directory):
+    
