@@ -7,7 +7,6 @@ from datetime import datetime
 date = datetime.date(datetime.now()).strftime('%Y%m%d') [2:] # This format can be modified.
 #print(date) check
 
-# Rename a file in the Downloads folder to something specific.
 path = os.getcwd()
 os.chdir(path)
 
