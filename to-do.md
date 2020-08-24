@@ -4,3 +4,4 @@
 2) Different versions of textExtractor-Tesseract for different languages.
 3) Check other repos, esp. loc for tools.
 4) Fix bugs in imageProcessing.py
+5) modify quickZip to recognize internal folder structures.
