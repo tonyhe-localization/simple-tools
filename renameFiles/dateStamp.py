@@ -18,7 +18,8 @@ for f in os.listdir():
         print('Skipping dateStamp...')
     elif f_ext == '.ini': # skip any .ini files that you don't want to change the name to.
         print('Skipping ini file...')
-    
+    elif f_ext == '.py':
+        print('Skipping .py files...')
     else:
         new_name = '{}_{}{}'.format(f_name, date, f_ext)
         os.rename(f, new_name)
