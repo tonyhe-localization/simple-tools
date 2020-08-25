@@ -11,12 +11,7 @@ print(os.listdir())
 
 for folder in os.listdir():
     f_name, f_ext = os.path.splitext(folder)
-    '''
-    file_root = os.path.splitext(file)[0]
-    zip_file_name = file_root + '.zip'
-    with zipfile.ZipFile(zip_file_name, mode='w') as zf:
-        zf.write(file)
-    '''
+
     if f_name == 'quickZip' and f_ext == '.py':
         print('Skipping quickZip...')
     elif f_ext == '.ini':
