@@ -3,12 +3,14 @@
 import zipfile
 import os
 
+# everything happens in the current directory
 path = os.getcwd() 
 os.chdir(path) 
 
 print("The following files will be zipped:")
-print(os.listdir())
+print(os.listdir()) # check
 
+# zip every file in the folder individually
 for folder in os.listdir():
     f_name, f_ext = os.path.splitext(folder)
 
