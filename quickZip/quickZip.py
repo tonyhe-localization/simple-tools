@@ -20,12 +20,12 @@ for folder in os.listdir():
         print('Skipping .ini files...')
     elif f_ext == '.py': # skip .py files
         print('Skipping .py files...')
-    elif f_ext == '.zip':
+    elif f_ext == '.zip': # skip .zip files
         print('Skipping .zip files...')
     else:
         zipf = zipfile.ZipFile('{0}.zip'.format(os.path.join(path, folder)), 'w', zipfile.ZIP_DEFLATED)
         for root, dirs, files in os.walk(os.path.join(path, folder)):
             for filename in files:
-                zipf.write(os.path.abspath(os.path.join(root, filename)),arcname=filename)
+                zipf.write(os.path.abspath(os.path.join(root, filename)),arcname=filename) # arcname here removes folder structures witin the zip
         zipf.close()
 
