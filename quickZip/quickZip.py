@@ -16,7 +16,7 @@ for folder in os.listdir():
 
     if f_name == 'quickZip' and f_ext == '.py':
         print('Skipping quickZip...')
-    elif f_ext == '.ini':
+    elif f_ext == '.ini': # skip .ini files
         print('Skipping .ini files...')
     elif f_ext == '.py':
         print('Skipping .py files...')
