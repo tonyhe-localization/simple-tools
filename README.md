@@ -29,4 +29,4 @@ imageProcessing.py - a script that prepares and cleans up image fors for more ac
 
 ### quickZip
 
-quickZip.py - when executed, zips each file within a folder individually. Very useful for working on multilingual files and folders.
+quickZip.py - when executed, zips each file within a folder individually (folder structures within the zipped folder will be removed). Very useful for working on multilingual files and folders.
