@@ -22,10 +22,12 @@ def removeSpaces():
     for f in os.listdir():
         f_name, f_ext = os.path.splitext(f)
 
-        if f_name == 'dateStampNS' and f_ext == '.py': # skip the "dateStampNS.py" script itself.
-            print('Skipping dateStampNS...')
+        if f_name == 'dateStampNS' and f_ext == '.py': # skip the "dateStamp.py" script itself.
+            print('Skipping dateStamp...')
         elif f_ext == '.ini': # skip any .ini files that you don't want to change the name to.
-            print('Skipping ini file...')
+            print('Skipping ini files...')
+        elif f_ext == '.py':
+            print('Skipping .py files...')
 
         else:
             new_name = '{}{}'.format(urlify(f_name), f_ext)
@@ -45,7 +47,7 @@ def dateStamp():
         f_name, f_ext = os.path.splitext(f)
 
         if f_name == 'dateStampNS' and f_ext == '.py': 
-            print('Skipping dateStampNS.py...')
+            print('Skipping dateStamp...')
         elif f_name == 'removeSpaces' and f_ext == '.py': 
             print('Skipping removeSpaces.py...')
         elif f_name == 'dateStampNoSpace' and f_ext == '.py':
@@ -53,7 +55,8 @@ def dateStamp():
 
         elif f_ext == '.ini': # skip any .ini files that you don't want to change the name to.
             print('Skipping ini file...')
-        
+        elif f_ext == '.py':
+            print('Skipping .py files...')
         else:
             new_name = '{}_{}{}'.format(f_name, date, f_ext)
             os.rename(f, new_name)
