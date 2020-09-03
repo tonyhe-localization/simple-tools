@@ -7,7 +7,7 @@ img = cv2.imread(input("Please enter name of the image file you'd like to have p
 
 # get grayscale image
 def get_grayscale(image):
-    return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # cannot figure out why cv2 is not working.
 
 # noise removal
 def remove_noise(image):
